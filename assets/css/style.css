@@ -2117,10 +2117,12 @@ hr {
     }
     .fg-sc input{
         font-size: 14px;
+        height: 2.6rem;
     }
     .fg-sc .custom-select{
         font-size: 14px;
         color: grey;
+        height: 2.6rem;
     }
     .search-sc button{
         color: white;
