@@ -2071,6 +2071,28 @@ hr {
     .abt-footer{
         padding: 0.3rem;
     }
+
+    /* search service centers on index page */
+    .search-sc{
+        padding: 1rem;
+        padding-top: 0.6rem;
+    }
+    .fg-sc label{
+        font-size: 14px;
+    }
+    .fg-sc input{
+        font-size: 14px;
+    }
+    .fg-sc .custom-select{
+        font-size: 14px;
+        color: grey;
+    }
+    .search-sc button{
+        color: white;
+        background-color: #209586;
+        width: 100%;
+        margin-top: 0.5rem;
+    }
 }
 
 /* Medium devices (landscape tablets, 550px to 850) */
