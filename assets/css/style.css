@@ -386,7 +386,7 @@ hr {
         border-radius: 5px;
     }
     .servicename p{
-        font-size: 13px;
+        font-size: 12px;
         color: rgb(78, 78, 78);
     }
     /* sidebar */
@@ -2109,7 +2109,7 @@ hr {
 
     /* search service centers on index page */
     .search-sc{
-        padding: 2rem;
+        padding: 1.4rem;
         padding-top: 0.8rem;
     }
     .fg-sc label{
@@ -2223,12 +2223,12 @@ hr {
     .services {
         display: flex;
         flex-direction: column;
-        background-color: white;
+        /* background-color: white; */
         margin-top: 10px;
         width: 98%;
         margin-left: 1%;
         border-radius: 5px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, .105882);
+        /* box-shadow: 0 2px 10px rgba(0, 0, 0, .105882); */
     }
     .service {
         width: 50%;
@@ -2236,9 +2236,9 @@ hr {
         padding: 1.5rem;
         padding-bottom: 0;
     }
-    .firstrow {
+    /* .firstrow {
         display: flex;
-    }
+    } */
     .secondrow1 {
         display: flex;
     }
@@ -2253,7 +2253,7 @@ hr {
         margin-bottom: 5px;
         font-size: 17px;
     }
-    #service1 {
+    /* #service1 {
         border-right: 1px solid lightgray;
         border-bottom: 1px solid lightgray;
     }
@@ -2262,10 +2262,44 @@ hr {
     }
     #service3 {
         border-right: 1px solid lightgray;
-    }
+    } */
     .service:hover .servicename p {
         font-weight: 550;
         color: #f0233e;
+    }
+     /* service center adjustments */
+    
+     .services-ind{
+        padding: 0rem;
+        display: flex;
+    }
+    .service{
+        padding: 0.5rem;
+    }
+    .serviceicon img{
+        height: 4rem;
+        margin-bottom: 1rem;
+    }
+    #ser1{
+        /* border-right: 1px solid rgb(231, 231, 231); */
+        margin: 2px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    #ser2{
+        margin: 2px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    #ser3{
+        /* border-left: 1px solid rgb(231, 231, 231); */
+        margin: 2px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    .servicename p{
+        font-size: 15px;
+        color: rgb(78, 78, 78);
     }
     /* sidebar */
     .vego-sidebar {
